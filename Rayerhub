@@ -1,0 +1,20 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+
+Title = "Rayer Hub Is loading!",
+
+Text = "Thanks.. Loading....", 
+
+Duration = 30 
+
+})
+
+wait(4)
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+
+Title = "Error
+
+",
+
+Text = "Please Say in chat !reportrayerhub", 
+

@@ -1,0 +1,586 @@
+
+
+local RayerHub = Instance.new("ScreenGui")
+local ScriptsFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local AnimChanger = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local BreakIn = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local FlyGUI = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local ResetAble = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TimeStop = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local invisibleScript = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Close = Instance.new("TextButton")
+local FETall = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+local ScriptsScripts = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local HubsScripts = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local HomeScripts = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local RayerHubScripts = Instance.new("TextLabel")
+local OpenButton = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local HomeFrame = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local Close_2 = Instance.new("TextButton")
+local HomeHome = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Welcome = Instance.new("TextLabel")
+local Updates = Instance.new("TextLabel")
+local Update1 = Instance.new("TextLabel")
+local Updates2 = Instance.new("TextLabel")
+local ScriptsHome = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local HubsHome = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local RayerHubHome = Instance.new("TextLabel")
+local Updates3 = Instance.new("TextLabel")
+local Updates4 = Instance.new("TextLabel")
+local HubsFrame = Instance.new("Frame")
+local Close_3 = Instance.new("TextButton")
+local ScriptsHubs = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+local HubsHubs = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local HomeHubs = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local RayerHubHubs = Instance.new("TextLabel")
+local UICorner_21 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
+local UnknowHub = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local IceHub = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local RedHub = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local PsyHub = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+
+--Properties:
+
+RayerHub.Name = "RayerHub"
+RayerHub.Parent = game.CoreGui
+RayerHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ScriptsFrame.Name = "ScriptsFrame"
+ScriptsFrame.Parent = RayerHub
+ScriptsFrame.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+ScriptsFrame.Position = UDim2.new(0.192788512, 0, 0.0222222228, 0)
+ScriptsFrame.Size = UDim2.new(0, 470, 0, 316)
+ScriptsFrame.Visible = false
+ScriptsFrame.Draggable = true
+
+UICorner.Parent = ScriptsFrame
+
+AnimChanger.Name = "AnimChanger"
+AnimChanger.Parent = ScriptsFrame
+AnimChanger.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+AnimChanger.Position = UDim2.new(0.354188293, 0, 0.682348311, 0)
+AnimChanger.Size = UDim2.new(0, 117, 0, 48)
+AnimChanger.Font = Enum.Font.SourceSans
+AnimChanger.Text = "Animation Changer (R15)"
+AnimChanger.TextColor3 = Color3.fromRGB(0, 0, 0)
+AnimChanger.TextScaled = true
+AnimChanger.TextSize = 14.000
+AnimChanger.TextWrapped = true
+
+UICorner_2.Parent = AnimChanger
+
+BreakIn.Name = "BreakIn"
+BreakIn.Parent = ScriptsFrame
+BreakIn.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+BreakIn.Position = UDim2.new(0.352662593, 0, 0.296272367, 0)
+BreakIn.Size = UDim2.new(0, 117, 0, 48)
+BreakIn.Font = Enum.Font.SourceSans
+BreakIn.Text = "Break In Story Script"
+BreakIn.TextColor3 = Color3.fromRGB(0, 0, 0)
+BreakIn.TextScaled = true
+BreakIn.TextSize = 14.000
+BreakIn.TextWrapped = true
+
+UICorner_3.Parent = BreakIn
+
+FlyGUI.Name = "FlyGUI"
+FlyGUI.Parent = ScriptsFrame
+FlyGUI.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+FlyGUI.Position = UDim2.new(0.663300872, 0, 0.295551807, 0)
+FlyGUI.Size = UDim2.new(0, 117, 0, 48)
+FlyGUI.Font = Enum.Font.SourceSans
+FlyGUI.Text = "Fly Gui"
+FlyGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+FlyGUI.TextScaled = true
+FlyGUI.TextSize = 14.000
+FlyGUI.TextWrapped = true
+
+UICorner_4.Parent = FlyGUI
+
+ResetAble.Name = "ResetAble"
+ResetAble.Parent = ScriptsFrame
+ResetAble.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+ResetAble.Position = UDim2.new(0.0237347111, 0, 0.482981265, 0)
+ResetAble.Size = UDim2.new(0, 117, 0, 48)
+ResetAble.Font = Enum.Font.SourceSans
+ResetAble.Text = "ResetAble (For games that dont support reseting)"
+ResetAble.TextColor3 = Color3.fromRGB(0, 0, 0)
+ResetAble.TextScaled = true
+ResetAble.TextSize = 14.000
+ResetAble.TextWrapped = true
+
+UICorner_5.Parent = ResetAble
+
+TimeStop.Name = "TimeStop"
+TimeStop.Parent = ScriptsFrame
+TimeStop.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+TimeStop.Position = UDim2.new(0.354188293, 0, 0.485395432, 0)
+TimeStop.Size = UDim2.new(0, 117, 0, 48)
+TimeStop.Font = Enum.Font.SourceSans
+TimeStop.Text = "Time Stop"
+TimeStop.TextColor3 = Color3.fromRGB(0, 0, 0)
+TimeStop.TextScaled = true
+TimeStop.TextSize = 14.000
+TimeStop.TextWrapped = true
+
+UICorner_6.Parent = TimeStop
+
+invisibleScript.Name = "invisibleScript"
+invisibleScript.Parent = ScriptsFrame
+invisibleScript.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+invisibleScript.Position = UDim2.new(0.0237347111, 0, 0.684846342, 0)
+invisibleScript.Size = UDim2.new(0, 117, 0, 48)
+invisibleScript.Font = Enum.Font.SourceSans
+invisibleScript.Text = "Invisible Script"
+invisibleScript.TextColor3 = Color3.fromRGB(0, 0, 0)
+invisibleScript.TextScaled = true
+invisibleScript.TextSize = 14.000
+invisibleScript.TextWrapped = true
+
+UICorner_7.Parent = invisibleScript
+
+Close.Name = "Close"
+Close.Parent = ScriptsFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.859085858, 0, 0, 0)
+Close.Size = UDim2.new(0, 58, 0, 50)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 4)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+Close.MouseButton1Click:Connect(function
+    HomeFrame.Visible = false
+    ScriptsFrame.Visible = false
+    HubsFrame.Visible = false
+end)
+FETall.Name = "FETall"
+FETall.Parent = ScriptsFrame
+FETall.BackgroundColor3 = Color3.fromRGB(125, 125, 125)
+FETall.Position = UDim2.new(0.0236978792, 0, 0.295551807, 0)
+FETall.Size = UDim2.new(0, 117, 0, 48)
+FETall.Font = Enum.Font.SourceSans
+FETall.Text = "FE Tall Script (Works On Brookhaven)"
+FETall.TextColor3 = Color3.fromRGB(0, 0, 0)
+FETall.TextScaled = true
+FETall.TextSize = 14.000
+FETall.TextWrapped = true
+
+UICorner_8.Parent = FETall
+
+UICorner_9.Parent = ScriptsFrame
+
+ScriptsScripts.Name = "ScriptsScripts"
+ScriptsScripts.Parent = ScriptsFrame
+ScriptsScripts.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+ScriptsScripts.Position = UDim2.new(0.23829788, 0, 0.0569620244, 0)
+ScriptsScripts.Size = UDim2.new(0, 84, 0, 49)
+ScriptsScripts.Font = Enum.Font.SourceSans
+ScriptsScripts.Text = "Scripts"
+ScriptsScripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsScripts.TextScaled = true
+ScriptsScripts.TextSize = 14.000
+ScriptsScripts.TextWrapped = true
+
+UICorner_10.Parent = ScriptsScripts
+
+HubsScripts.Name = "HubsScripts"
+HubsScripts.Parent = ScriptsFrame
+HubsScripts.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+HubsScripts.Position = UDim2.new(0.457446814, 0, 0.0569620244, 0)
+HubsScripts.Size = UDim2.new(0, 84, 0, 49)
+HubsScripts.Font = Enum.Font.SourceSans
+HubsScripts.Text = "Hubs"
+HubsScripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+HubsScripts.TextScaled = true
+HubsScripts.TextSize = 14.000
+HubsScripts.TextWrapped = true
+HubsScripts.MouseButton1Click:Connect(function()
+    ScriptsFrame.Visible = false
+    HubsFrame.Visible = true
+end)
+UICorner_11.Parent = HubsScripts
+
+HomeScripts.Name = "HomeScripts"
+HomeScripts.Parent = ScriptsFrame
+HomeScripts.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+HomeScripts.Position = UDim2.new(0.0234042555, 0, 0.0569620244, 0)
+HomeScripts.Size = UDim2.new(0, 84, 0, 49)
+HomeScripts.Font = Enum.Font.SourceSans
+HomeScripts.Text = "Home"
+HomeScripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+HomeScripts.TextScaled = true
+HomeScripts.TextSize = 14.000
+HomeScripts.TextWrapped = true
+HomeScrips.MouseButton1Click:Connect(function()
+    ScriptsFrame.Visible = false
+    HomeFrame.Visible = true
+end)
+UICorner_12.Parent = HomeScripts
+
+RayerHubScripts.Name = "RayerHubScripts"
+RayerHubScripts.Parent = ScriptsFrame
+RayerHubScripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RayerHubScripts.BackgroundTransparency = 1.000
+RayerHubScripts.Position = UDim2.new(0, 0, 0.863924026, 0)
+RayerHubScripts.Size = UDim2.new(0, 470, 0, 43)
+RayerHubScripts.Font = Enum.Font.SourceSans
+RayerHubScripts.Text = "RayerHub: Scripts"
+RayerHubScripts.TextColor3 = Color3.fromRGB(255, 20, 232)
+RayerHubScripts.TextScaled = true
+RayerHubScripts.TextSize = 14.000
+RayerHubScripts.TextWrapped = true
+
+OpenButton.Name = "OpenButton"
+OpenButton.Parent = RayerHub
+OpenButton.BackgroundColor3 = Color3.fromRGB(253, 186, 226)
+OpenButton.Position = UDim2.new(0.00940170977, 0, 0.154088065, 0)
+OpenButton.Size = UDim2.new(0, 100, 0, 50)
+OpenButton.Font = Enum.Font.SourceSans
+OpenButton.Text = "Open"
+OpenButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenButton.TextScaled = true
+OpenButton.TextSize = 14.000
+OpenButton.TextWrapped = true
+OpenButton.MouseButton1Click:Connect(function()
+	HomeFrame.Visible = true
+	wait(0)
+	OpenButton.Visible = false
+end)
+
+UICorner_13.Parent = OpenButton
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = RayerHub
+HomeFrame.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+HomeFrame.Position = UDim2.new(0.192788512, 0, 0.0222222228, 0)
+HomeFrame.Size = UDim2.new(0, 470, 0, 316)
+HomeFrame.Visible = false
+HomeFrame.Draggable = true
+
+UICorner_14.Parent = HomeFrame
+
+Close_2.Name = "Close"
+Close_2.Parent = HomeFrame
+Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.BackgroundTransparency = 1.000
+Close_2.Position = UDim2.new(0.859085858, 0, 0, 0)
+Close_2.Size = UDim2.new(0, 58, 0, 50)
+Close_2.Font = Enum.Font.SourceSans
+Close_2.Text = "X"
+Close_2.TextColor3 = Color3.fromRGB(255, 0, 4)
+Close_2.TextScaled = true
+Close_2.TextSize = 14.000
+Close_2.TextWrapped = true
+Close_2.MouseButton1Click:Connect(function
+    HomeFrame.Visible = false
+    ScriptsFrame.Visible = false
+    HubsFrame.Visible = false
+end)
+
+HomeHome.Name = "HomeHome"
+HomeHome.Parent = HomeFrame
+HomeHome.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+HomeHome.Position = UDim2.new(0.0234042555, 0, 0.0569620244, 0)
+HomeHome.Size = UDim2.new(0, 84, 0, 49)
+HomeHome.Font = Enum.Font.SourceSans
+HomeHome.Text = "Home"
+HomeHome.TextColor3 = Color3.fromRGB(0, 0, 0)
+HomeHome.TextScaled = true
+HomeHome.TextSize = 14.000
+HomeHome.TextWrapped = true
+
+UICorner_15.Parent = HomeHome
+
+Welcome.Name = "Welcome"
+Welcome.Parent = HomeFrame
+Welcome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Welcome.BackgroundTransparency = 1.000
+Welcome.Position = UDim2.new(0.23829788, 0, 0.158227861, 0)
+Welcome.Size = UDim2.new(0, 224, 0, 93)
+Welcome.Font = Enum.Font.SourceSans
+Welcome.Text = "Welcome To RayerHub, Thanks For Using The hub"
+Welcome.TextColor3 = Color3.fromRGB(76, 255, 56)
+Welcome.TextSize = 20.000
+
+Updates.Name = "Updates"
+Updates.Parent = HomeFrame
+Updates.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updates.BackgroundTransparency = 1.000
+Updates.Position = UDim2.new(0.00851063803, 0, 0.275316477, 0)
+Updates.Size = UDim2.new(0, 146, 0, 91)
+Updates.Font = Enum.Font.SourceSans
+Updates.Text = "Updates:"
+Updates.TextColor3 = Color3.fromRGB(0, 0, 0)
+Updates.TextScaled = true
+Updates.TextSize = 14.000
+Updates.TextWrapped = true
+
+Update1.Name = "Update1"
+Update1.Parent = HomeFrame
+Update1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Update1.BackgroundTransparency = 1.000
+Update1.Position = UDim2.new(0, 0, 0.379746854, 0)
+Update1.Size = UDim2.new(0, 154, 0, 98)
+Update1.Font = Enum.Font.SourceSans
+Update1.Text = "-Added Moon UI"
+Update1.TextColor3 = Color3.fromRGB(0, 0, 0)
+Update1.TextSize = 27.000
+Update1.TextWrapped = true
+
+Updates2.Name = "Updates2"
+Updates2.Parent = HomeFrame
+Updates2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updates2.BackgroundTransparency = 1.000
+Updates2.Position = UDim2.new(0, 0, 0.481012702, 0)
+Updates2.Size = UDim2.new(0, 154, 0, 98)
+Updates2.Font = Enum.Font.SourceSans
+Updates2.Text = "-Added CarlHub"
+Updates2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Updates2.TextSize = 27.000
+Updates2.TextWrapped = true
+
+ScriptsHome.Name = "ScriptsHome"
+ScriptsHome.Parent = HomeFrame
+ScriptsHome.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+ScriptsHome.Position = UDim2.new(0.23829788, 0, 0.0569620244, 0)
+ScriptsHome.Size = UDim2.new(0, 84, 0, 49)
+ScriptsHome.Font = Enum.Font.SourceSans
+ScriptsHome.Text = "Scripts"
+ScriptsHome.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsHome.TextScaled = true
+ScriptsHome.TextSize = 14.000
+ScriptsHome.TextWrapped = true
+ScriptsHome.MouseButton1Click:Connect(function()
+    HomeFrame.Visible = false
+    ScriptsFrame.Visible = true
+end)
+UICorner_16.Parent = ScriptsHome
+
+HubsHome.Name = "HubsHome"
+HubsHome.Parent = HomeFrame
+HubsHome.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+HubsHome.Position = UDim2.new(0.457446814, 0, 0.0569620244, 0)
+HubsHome.Size = UDim2.new(0, 84, 0, 49)
+HubsHome.Font = Enum.Font.SourceSans
+HubsHome.Text = "Hubs"
+HubsHome.TextColor3 = Color3.fromRGB(0, 0, 0)
+HubsHome.TextScaled = true
+HubsHome.TextSize = 14.000
+HubsHome.TextWrapped = true
+HubsHome.MouseButton1Click:Connect(function()
+    HomeFrame.Visible = false
+    HubsFrame.Visible = true
+end)
+UICorner_17.Parent = HubsHome
+
+RayerHubHome.Name = "RayerHubHome"
+RayerHubHome.Parent = HomeFrame
+RayerHubHome.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RayerHubHome.BackgroundTransparency = 1.000
+RayerHubHome.Position = UDim2.new(0, 0, 0.857594907, 0)
+RayerHubHome.Size = UDim2.new(0, 470, 0, 45)
+RayerHubHome.Font = Enum.Font.SourceSans
+RayerHubHome.Text = "RayerHub: Home"
+RayerHubHome.TextColor3 = Color3.fromRGB(255, 20, 232)
+RayerHubHome.TextScaled = true
+RayerHubHome.TextSize = 14.000
+RayerHubHome.TextWrapped = true
+
+Updates3.Name = "Updates3"
+Updates3.Parent = HomeFrame
+Updates3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updates3.BackgroundTransparency = 1.000
+Updates3.Position = UDim2.new(0, 0, 0.588607609, 0)
+Updates3.Size = UDim2.new(0, 154, 0, 98)
+Updates3.Font = Enum.Font.SourceSans
+Updates3.Text = "-Added RedHub"
+Updates3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Updates3.TextSize = 27.000
+Updates3.TextWrapped = true
+
+Updates4.Name = "Updates4"
+Updates4.Parent = HomeFrame
+Updates4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Updates4.BackgroundTransparency = 1.000
+Updates4.Position = UDim2.new(-0.012765957, 0, 0.689873397, 0)
+Updates4.Size = UDim2.new(0, 166, 0, 98)
+Updates4.Font = Enum.Font.SourceSans
+Updates4.Text = "-Added UnknowHub"
+Updates4.TextColor3 = Color3.fromRGB(0, 0, 0)
+Updates4.TextSize = 20.000
+Updates4.TextWrapped = true
+
+HubsFrame.Name = "HubsFrame"
+HubsFrame.Parent = RayerHub
+HubsFrame.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
+HubsFrame.Position = UDim2.new(0.192788512, 0, 0.0222222228, 0)
+HubsFrame.Size = UDim2.new(0, 470, 0, 316)
+HubsFrame.Visible = false
+HubsFrame.Draggable = true
+
+Close_3.Name = "Close"
+Close_3.Parent = HubsFrame
+Close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_3.BackgroundTransparency = 1.000
+Close_3.Position = UDim2.new(0.859085858, 0, 0, 0)
+Close_3.Size = UDim2.new(0, 58, 0, 50)
+Close_3.Font = Enum.Font.SourceSans
+Close_3.Text = "X"
+Close_3.TextColor3 = Color3.fromRGB(255, 0, 4)
+Close_3.TextScaled = true
+Close_3.TextSize = 14.000
+Close_3.TextWrapped = true
+Close_3.MouseButton1Click:Connect(function
+    HomeFrame.Visible = false
+    ScriptsFrame.Visible = false
+    HubsFrame.Visible = false
+end)
+
+ScriptsHubs.Name = "ScriptsHubs"
+ScriptsHubs.Parent = HubsFrame
+ScriptsHubs.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+ScriptsHubs.Position = UDim2.new(0.23829788, 0, 0.0569620244, 0)
+ScriptsHubs.Size = UDim2.new(0, 84, 0, 49)
+ScriptsHubs.Font = Enum.Font.SourceSans
+ScriptsHubs.Text = "Scripts"
+ScriptsHubs.TextColor3 = Color3.fromRGB(0, 0, 0)
+ScriptsHubs.TextScaled = true
+ScriptsHubs.TextSize = 14.000
+ScriptsHubs.TextWrapped = true
+ScriptsHubs.MouseButton1Click:Connect(function()
+    HubsFrame.Visible = false
+    ScriptsFrame.Visible = true
+end)
+UICorner_18.Parent = ScriptsHubs
+
+HubsHubs.Name = "HubsHubs"
+HubsHubs.Parent = HubsFrame
+HubsHubs.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+HubsHubs.Position = UDim2.new(0.457446814, 0, 0.0569620244, 0)
+HubsHubs.Size = UDim2.new(0, 84, 0, 49)
+HubsHubs.Font = Enum.Font.SourceSans
+HubsHubs.Text = "Hubs"
+HubsHubs.TextColor3 = Color3.fromRGB(0, 0, 0)
+HubsHubs.TextScaled = true
+HubsHubs.TextSize = 14.000
+HubsHubs.TextWrapped = true
+
+UICorner_19.Parent = HubsHubs
+
+HomeHubs.Name = "HomeHubs"
+HomeHubs.Parent = HubsFrame
+HomeHubs.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+HomeHubs.Position = UDim2.new(0.0234042555, 0, 0.0569620244, 0)
+HomeHubs.Size = UDim2.new(0, 84, 0, 49)
+HomeHubs.Font = Enum.Font.SourceSans
+HomeHubs.Text = "Home"
+HomeHubs.TextColor3 = Color3.fromRGB(0, 0, 0)
+HomeHubs.TextScaled = true
+HomeHubs.TextSize = 14.000
+HomeHubs.TextWrapped = true
+HomeHubs.MouseButton1Click:Connect(function()
+    HomeFrame.Visible = false
+    HubsFrame.Visible = true
+end)
+UICorner_20.Parent = HomeHubs
+
+RayerHubHubs.Name = "RayerHubHubs"
+RayerHubHubs.Parent = HubsFrame
+RayerHubHubs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RayerHubHubs.BackgroundTransparency = 1.000
+RayerHubHubs.Position = UDim2.new(0, 0, 0.863924026, 0)
+RayerHubHubs.Size = UDim2.new(0, 470, 0, 43)
+RayerHubHubs.Font = Enum.Font.SourceSans
+RayerHubHubs.Text = "RayerHub: Hubs"
+RayerHubHubs.TextColor3 = Color3.fromRGB(255, 20, 232)
+RayerHubHubs.TextScaled = true
+RayerHubHubs.TextSize = 14.000
+RayerHubHubs.TextWrapped = true
+
+UICorner_21.Parent = HubsFrame
+
+UICorner_22.Parent = HubsFrame
+
+UnknowHub.Name = "UnknowHub"
+UnknowHub.Parent = HubsFrame
+UnknowHub.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+UnknowHub.Position = UDim2.new(0.0234042555, 0, 0.287974685, 0)
+UnknowHub.Size = UDim2.new(0, 122, 0, 50)
+UnknowHub.Font = Enum.Font.SourceSans
+UnknowHub.Text = "Unknow Hub"
+UnknowHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+UnknowHub.TextScaled = true
+UnknowHub.TextSize = 14.000
+UnknowHub.TextWrapped = true
+
+UICorner_23.Parent = UnknowHub
+
+IceHub.Name = "IceHub"
+IceHub.Parent = HubsFrame
+IceHub.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+IceHub.Position = UDim2.new(0.376595736, 0, 0.287974685, 0)
+IceHub.Size = UDim2.new(0, 122, 0, 50)
+IceHub.Font = Enum.Font.SourceSans
+IceHub.Text = "IceHub (Brookhaven)"
+IceHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+IceHub.TextScaled = true
+IceHub.TextSize = 14.000
+IceHub.TextWrapped = true
+
+UICorner_24.Parent = IceHub
+
+RedHub.Name = "RedHub"
+RedHub.Parent = HubsFrame
+RedHub.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+RedHub.Position = UDim2.new(0.70638299, 0, 0.287974685, 0)
+RedHub.Size = UDim2.new(0, 122, 0, 50)
+RedHub.Font = Enum.Font.SourceSans
+RedHub.Text = "Red Hub"
+RedHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+RedHub.TextScaled = true
+RedHub.TextSize = 14.000
+RedHub.TextWrapped = true
+
+UICorner_25.Parent = RedHub
+
+PsyHub.Name = "PsyHub"
+PsyHub.Parent = HubsFrame
+PsyHub.BackgroundColor3 = Color3.fromRGB(140, 140, 140)
+PsyHub.Position = UDim2.new(0.0234042406, 0, 0.525316477, 0)
+PsyHub.Size = UDim2.new(0, 122, 0, 50)
+PsyHub.Font = Enum.Font.SourceSans
+PsyHub.Text = "Psy Hub"
+PsyHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+PsyHub.TextScaled = true
+PsyHub.TextSize = 14.000
+PsyHub.TextWrapped = true
+
+UICorner_26.Parent = PsyHub
